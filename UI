@@ -688,7 +688,7 @@ do
         };
 
         if KeyPicker.SyncToggleState then
-            Info.Modes = { 'Toggle' }
+            Info.Modes = { 'Always', 'Toggle', 'Hold' }
             Info.Mode = 'Toggle'
         end
 
